@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Mukta:wght@300&display=swap');
+*,*::after,*::before{
+  box-sizing: border-box;
+  font-family: Mukta;
+}
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+div{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 43px;
+  width: 375px;
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
+  position: relative;
+  background-image:url(./fondo.jpg) ;
+  filter: hue-rotate(180deg);
+}
+.mascara{
+  background-image: url(./fondo.jpg);
+  width:375px;
+  height:43px;
+  background-size: cover;
+  background-position: bottom;
+  clip-path: url(#mascara);
+  position: absolute;
+}
+svg{
+  position: absolute;
+}
